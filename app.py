@@ -7,7 +7,7 @@ import plotly
 
 # Keep this out of source code repository - save in a file or a database
 VALID_USERNAME_PASSWORD_PAIRS = {
-    'Salem': 'Oregon', 'Sacremento': 'California', 'Albany': 'New York'
+    'Salem': 'Oregon', 'Sacremento': 'California'
 }
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
