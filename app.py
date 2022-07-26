@@ -7,7 +7,7 @@ import plotly
 
 # Keep this out of source code repository - save in a file or a database
 VALID_USERNAME_PASSWORD_PAIRS = {
-    'Mickey': 'Mouse', 'Donald': 'Duck'
+    'Salem': 'Oregon', 'Sacremento': 'California', 'Albany': 'New York'
 }
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
@@ -29,7 +29,7 @@ app.layout = html.Div([
         value=1
     ),
     dcc.Graph(id='graph'),
-    html.A('Code on Github', href='https://github.com/austinlasseter/dash-auth-example'),
+    html.A('Code on Github', href='https://github.com/astever31/208-authentication-example'),
     html.Br(),
     html.A("Data Source", href='https://dash.plotly.com/authentication'),
 ], className='container')
